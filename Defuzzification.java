@@ -1,11 +1,7 @@
-import java.util.Scanner;
-
 public class Defuzzification{
     float[] inferensi;
     float[][] sample;
     float output;
-
-    Scanner sc = new Scanner(System.in);
     
     public Defuzzification(float[] inferensi,float[][] sample) {
         this.inferensi = inferensi;

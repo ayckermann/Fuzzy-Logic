@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class Inference{
     float maka[]= new float[9];
     String nama[];
@@ -9,7 +7,6 @@ public class Inference{
     Fuzzification fuzzi2;
 
     float[] output =  new float[3];
-    Scanner sc = new Scanner(System.in);
 
     Inference(String[] nama, Fuzzification fuzzi1, Fuzzification fuzzi2, String[] nama2){
         this.nama = nama;
