@@ -22,11 +22,15 @@ public class Fuzzy2{
         
         System.out.println();
         System.out.println("Fuzzifikasi");
+        System.out.println();
+        System.out.println("IPK");
         for(int i =0; i<3;i++){
             if(fuzzi1.output[i]!=0){
                 System.out.println("M "+ fuzzi1.nama[i] +"[" + fuzzi1.input + "] = "+ fuzzi1.output[i]);
             }
         }
+        System.out.println();
+        System.out.println("Gaji Ortu");
         for(int i =0; i<3;i++){
             if(fuzzi2.output[i]!=0){
                 System.out.println("M "+ fuzzi2.nama[i] +"[" + fuzzi2.input + "] = "+ fuzzi2.output[i]);
