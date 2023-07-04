@@ -42,14 +42,18 @@ public class Inference{
     }
 
     public void print(){
+        String table = "| %-20s | %-20s | %-20s |%n";
         int z=0;
         for(int i =0;i<3;i++){
             for(int j=0;j<3;j++){
-                System.out.println(fuzzi1.nama[i]+"("+fuzzi1.output[i]+")\t"+ fuzzi2.nama[j]+"("+fuzzi2.output[j]+")\t\t" + nama2[z]+ "("+maka[z]+")" );
+                System.out.format("+----------------------+----------------------+----------------------+%n");
+
+                System.out.format(table,fuzzi1.nama[i]+"("+fuzzi1.output[i]+")", fuzzi2.nama[j]+"("+fuzzi2.output[j]+")",  nama2[z]+ "("+maka[z]+")" );
                 z++;
             }
             
         }
+        System.out.format("+----------------------+----------------------+----------------------+%n");
         
     }
 
